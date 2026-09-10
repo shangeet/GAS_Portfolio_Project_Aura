@@ -73,3 +73,17 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignore heavy Unreal asset types (Keep them local to the drive)
+Content/**/*.uasset
+Content/**/*.umap
+Content/**/*.upack
+
+# Ignore raw source art files you might keep in the project directory
+Content/**/*.png
+Content/**/*.jpg
+Content/**/*.jpeg
+Content/**/*.fbx
+Content/**/*.obj
+Content/**/*.wav
+Content/**/*.mp3
